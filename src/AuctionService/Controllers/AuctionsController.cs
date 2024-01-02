@@ -16,7 +16,7 @@ namespace AuctionService.Controllers;
 public class AuctionsController : ControllerBase
 {
     private readonly AuctionDbContext _context;
-        private readonly IPublishEndpoint _publishEndpoint;
+    private readonly IPublishEndpoint _publishEndpoint;
 
     private readonly IMapper _mapper;
     public AuctionsController(AuctionDbContext context, IMapper mapper, 
